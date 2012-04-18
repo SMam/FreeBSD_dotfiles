@@ -1,0 +1,15 @@
+# dotfileをgithubで管理する
+# http://blog.suusuke.info/2011/07/05/dotfile%E3%82%92github%E3%81%A7%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B/
+
+# 最初に全てのファイルを ignore
+/*
+/*.
+
+# 必要なファイルを除外
+!/.cshrc
+!/.login
+!/.xinitrc
+!/.vim
+!/.vimrc
+!/.gitconfig
+!/.gitignore
